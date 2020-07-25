@@ -30,9 +30,9 @@ public class Visual extends Gizmo {
 	public float height;
 	
 	public PointF scale;
-	public PointF origin;
+	public final PointF origin;
 	
-	protected float[] matrix;
+	protected final float[] matrix;
 	
 	public float rm;
 	public float gm;
@@ -43,8 +43,8 @@ public class Visual extends Gizmo {
 	public float ba;
 	public float aa;
 	
-	public PointF speed;
-	public PointF acc;
+	public final PointF speed;
+	public final PointF acc;
 	
 	public float angle;
 	public float angularSpeed;

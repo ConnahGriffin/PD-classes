@@ -214,7 +214,7 @@ public class BitmapText extends Visual {
 		public static final String LATIN_FULL = 
 			" !\"#$%&'()*+,-./0123456789:;<=>?@ABCDEFGHIJKLMNOPQRSTUVWXYZ[\\]^_`abcdefghijklmnopqrstuvwxyz{|}~\u007F";
 		
-		public SmartTexture texture;
+		public final SmartTexture texture;
 		
 		public float tracking = 0;
 		public float baseLine;

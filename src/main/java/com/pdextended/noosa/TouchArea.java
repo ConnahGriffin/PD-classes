@@ -24,7 +24,7 @@ import com.pdextended.utils.Signal;
 public class TouchArea extends Visual implements Signal.Listener<Touch> {
 	
 	// Its target can be toucharea itself
-	public Visual target;
+	public final Visual target;
 	
 	protected Touch touch = null;
 	

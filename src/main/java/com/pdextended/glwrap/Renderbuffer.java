@@ -25,7 +25,7 @@ public class Renderbuffer {
 	public static final int DEPTH16		= GLES20.GL_DEPTH_COMPONENT16;
 	public static final int STENCIL8	= GLES20.GL_STENCIL_INDEX8;
 	
-	private int id;
+	private final int id;
 	
 	public Renderbuffer() {
 		int[] buffers = new int[1];

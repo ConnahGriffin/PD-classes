@@ -33,8 +33,8 @@ public class  Image extends Visual {
 	public boolean flipHorizontal;
 	private boolean flipVertical;
 	
-	protected float[] vertices;
-	protected FloatBuffer verticesBuffer;
+	protected final float[] vertices;
+	protected final FloatBuffer verticesBuffer;
 	
 	protected boolean dirty;
 	

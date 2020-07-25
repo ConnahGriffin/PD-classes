@@ -21,7 +21,7 @@ import android.opengl.GLES20;
 
 public class Uniform {
 
-	private int location;
+	private final int location;
 	
 	public Uniform( int location ) {
 		this.location = location;

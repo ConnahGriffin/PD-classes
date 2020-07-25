@@ -22,10 +22,10 @@ import com.pdextended.utils.PointF;
 
 public class PosTweener extends Tweener {
 
-	public Visual visual;
+	public final Visual visual;
 	
-	public PointF start;
-	public PointF end;
+	public final PointF start;
+	public final PointF end;
 	
 	public PosTweener(Visual visual, PointF pos, float time ) {
 		super( visual, time );

@@ -24,7 +24,7 @@ public class Shader {
 	public static final int VERTEX		= GLES20.GL_VERTEX_SHADER;
 	public static final int FRAGMENT	= GLES20.GL_FRAGMENT_SHADER;
 	
-	private int handle;
+	private final int handle;
 	
 	public Shader( int type ) {
 		handle = GLES20.glCreateShader( type );

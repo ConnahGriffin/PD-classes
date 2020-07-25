@@ -104,7 +104,7 @@ public class MovieClip extends Image {
 		
 		public float delay;
 		public RectF[] frames;
-		public boolean looped;
+		public final boolean looped;
 		
 		public Animation( int fps, boolean looped ) {
 			this.delay = 1f / fps;
