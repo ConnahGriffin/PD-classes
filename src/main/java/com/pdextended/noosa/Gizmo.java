@@ -23,6 +23,7 @@ public class Gizmo {
 	public boolean alive;
 	public boolean active;
 	public boolean visible;
+	public Boolean activemAlmanac;
 	
 	public Group parent;
 	
